@@ -1,4 +1,4 @@
-# 开发
+# 开发命令
 
 ```
 yarn global add parcel-bundler
