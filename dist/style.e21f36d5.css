@@ -9,15 +9,17 @@ img {max-width: 100%; max-height: 100%;}
 
 @media  (min-width: 500px){
   body {
-    background-image:url(/bak1.0688c04a.png);
-    background-size: 100%;
-    background-repeat:no-repeat;
-
+    background-image:url(bak1.c630ef99.png);
+    background-size: cover;
   }
 }
 body {
-  background-image:url(/bak.60ff1b62.png);
-  background-size:100% 969px;
+  background-image:url(1bak.07a157d4.png);
+  background-size: cover;
+
+
+
+
 }
 
 
@@ -35,7 +37,7 @@ body {
 }
 @media (min-width: 500px) {
   .searchForm {
-    max-width: 400px;
+    max-width: 650px;
     margin-left: auto;
     margin-right: auto;
   }
@@ -146,4 +148,4 @@ body {
   align-items: center;
 }
 
-/*# sourceMappingURL=/style.e308ff8e.css.map */
+/*# sourceMappingURL=style.e21f36d5.css.map */
