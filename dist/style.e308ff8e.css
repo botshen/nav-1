@@ -14,7 +14,7 @@ img {max-width: 100%; max-height: 100%;}
   }
 }
 body {
-  background-image:url(./images/1bak.png);
+  background-image:url(/1bak.67b5f931.png);
   background-size: cover;
 }
 
@@ -160,3 +160,5 @@ body {
   justify-content: center;
   align-items: center;
 }
+
+/*# sourceMappingURL=/style.e308ff8e.css.map */
