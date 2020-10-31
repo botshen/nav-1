@@ -123,11 +123,35 @@ var $lastLi = $siteList.find('li.last');
 var x = localStorage.getItem('x');
 var xObject = JSON.parse(x);
 var hashMap = xObject || [{
-  logo: 'A',
-  url: 'https://www.acfun.cn'
+  logo: 'G',
+  url: 'https://www.google.com'
+}, {
+  logo: 'Z',
+  url: 'https://www.zhihu.com'
 }, {
   logo: 'B',
   url: 'https://www.bilibili.com'
+}, {
+  logo: 'I',
+  url: 'https://www.iconfont.cn/'
+}, {
+  logo: 'S',
+  url: 'https://stackoverflow.com/'
+}, {
+  logo: 'Y',
+  url: 'https://www.youtube.com/'
+}, {
+  logo: 'G',
+  url: 'https://github.com/'
+}, {
+  logo: 'M',
+  url: 'https://developer.mozilla.org/zh-CN/'
+}, {
+  logo: 'V',
+  url: 'https://www.v2ex.com/'
+}, {
+  logo: 'C',
+  url: 'https://colorhunt.co/'
 }];
 
 var simplifyUrl = function simplifyUrl(url) {
@@ -181,4 +205,4 @@ $(document).on('keypress', function (e) {
   }
 });
 },{}]},{},["epB2"], null)
-//# sourceMappingURL=main.77770eb4.js.map
+//# sourceMappingURL=main.036d6c6a.js.map

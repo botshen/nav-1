@@ -3,8 +3,17 @@ const $lastLi = $siteList.find('li.last')
 const x = localStorage.getItem('x')
 const xObject = JSON.parse(x)
 const hashMap = xObject || [
-  {logo: 'A', url: 'https://www.acfun.cn'},
-  {logo: 'B', url: 'https://www.bilibili.com'}
+  {logo: 'G', url: 'https://www.google.com'},
+  {logo: 'Z', url: 'https://www.zhihu.com'},
+  {logo: 'B', url: 'https://www.bilibili.com'},
+  {logo: 'I', url: 'https://www.iconfont.cn/'},
+  {logo: 'S', url: 'https://stackoverflow.com/'},
+  {logo: 'Y', url: 'https://www.youtube.com/'},
+  {logo: 'G', url: 'https://github.com/'},
+  {logo: 'M', url: 'https://developer.mozilla.org/zh-CN/'},
+  {logo: 'V', url: 'https://www.v2ex.com/'},
+  {logo: 'C', url: 'https://colorhunt.co/'}
+
 ]
 const simplifyUrl = (url) => {
   return url.replace('https://', '')
